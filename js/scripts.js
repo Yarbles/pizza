@@ -21,3 +21,10 @@ getPrice: function() {
   return this.price;
   }
 };
+
+$(document).ready(function() {
+  $form("form#order").submit(function(event) {
+    event.preventDefault();
+    
+  })
+})
