@@ -1,19 +1,13 @@
-# Name:
-# Date:
+Prickly Pete's Peerless Pizza Parlor
+Copyright Reid Baldwin
+April 2015
 
-Description:
+Description: A mock pizza website that lets the user order a large/regular cheese/pepperoni pizza
 
-# SetUp and Use
-In order to use this program you will need a browser...NOT IE!
+Directions: Download the repository and run pizza.html in a browser that supports Javascript
 
-SetUp
-1.
+Permissions, licenses, etc:
 
-# Copyright (c) 2015 (Name)
-
-# The MIT License (MIT)
-
-# PERMISSION*
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
 the Software without restriction, including without limitation the rights to
@@ -24,7 +18,7 @@ do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
  copies or substantial portions of the Software.
 
-# LICENSING*
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

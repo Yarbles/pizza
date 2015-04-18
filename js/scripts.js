@@ -23,8 +23,20 @@ getPrice: function() {
 };
 
 $(document).ready(function() {
-  $form("form#order").submit(function(event) {
+  $("#order").submit(function(event) {
     event.preventDefault();
-    
-  })
-})
+
+    var topping =$("select#topping").val();
+    var size =$("select#size").val();
+
+    var new_pizza = Object.create(Pizza);
+
+    new_pizza.pepperoniPlease(topping);
+    new_pizza.largePlease(size);
+
+    var total = new_pizza.getPrice();
+
+    $("#total").text(total);
+
+  });
+});

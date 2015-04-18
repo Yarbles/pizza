@@ -15,17 +15,25 @@
           <div class="row">
             <div class="col-md-8">
               <h3>Please choose a topping</h3>
-              <form id="order">
+              <form id="topping">
                 <div class="form-group">
                   <select id="topping" class="form-group">
-                    <option value="cheese">Cheese</option>
-                    <option value="pepperoni">Pepperoni</option>
+                    <option value="false">Cheese</option>
+                    <option value="true">Pepperoni</option>
                   <select>
               <h3>Please choose the size of your pie</h3>
+              <form id="size">
+                <div class="form-group">
                   <select id="size" class="form-group">
-                    <option value="regular">Regular</option>
-                    <option value="large">Large</option>
+                    <option value="false">Regular</option>
+                    <option value="true">Large</option>
                   <select>
       </div>
+      <button type="sumbit" class="btn btn-success">
+        <span class="glyphicon"></span>Submit Your order
+      </button>
+
+      <h3>$<span id="total"></span>.00</h3>
+
   </body>
 </html>
